@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: read
-  packages: write
 
 jobs:
   docker:
@@ -27,7 +26,8 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
-            type=sha,prefix=,format=short,enable=${{ github.ref_type == 'branch' }}
+            type=sha,format=short,enable=${{ github.ref_type == 'branch' }}
+            type=edge
           flavor: |
             latest=${{ github.ref_type == 'tag' }}
 

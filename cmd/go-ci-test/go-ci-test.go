@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/Zouizoui78/simple-ddns/internal/add"
+	"github.com/alexzouiten/go-ci-test/internal/add"
 )
 
 func main() {
