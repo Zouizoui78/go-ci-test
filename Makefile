@@ -37,7 +37,8 @@ test:
 
 .PHONY: test-cicd
 test-cicd:
-	@go test -tags dev -v -race -cover -coverprofile=$(COVERAGE_REPORT) -json ./... > $(TEST_REPORT)
+	@mkdir -p test
+	@go test -tags dev -v -race -cover -coverprofile=$(COVERAGE_REPORT) ./...
 
 .PHONY: benchmark
 benchmark:
