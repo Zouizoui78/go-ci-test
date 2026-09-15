@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.3...v0.0.4) (2026-09-15)
+
+
+### Bug Fixes
+
+* push image to ghcr ([d7482d9](https://github.com/Zouizoui78/go-ci-test/commit/d7482d9c29bf3693ee962bde195c0c239c6fe913))
+
 ## [0.0.3](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.2...v0.0.3) (2026-09-15)
 
 
