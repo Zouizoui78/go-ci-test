@@ -54,7 +54,7 @@ jobs:
     steps:
       - uses: docker/login-action@v4
         with:
-          registry: ${{ env.REGISTRY }}
+          registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CICD_TOKEN }}
 
