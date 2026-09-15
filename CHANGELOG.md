@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.1...v0.0.2) (2026-09-15)
+
+
+### Bug Fixes
+
+* push docker image to gcr ([704a46d](https://github.com/Zouizoui78/go-ci-test/commit/704a46d859df1736e48a39e5a05a99ab909c8e3f))
+
 ## 0.0.1 (2026-09-15)
 
 
