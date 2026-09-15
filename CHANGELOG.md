@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/alexzouiten/go-ci-test/compare/v0.0.5...v0.0.6) (2026-09-15)
+
+
+### Bug Fixes
+
+* image tags ([7d8a4a5](https://github.com/alexzouiten/go-ci-test/commit/7d8a4a5ff5e72b82836e96b8b1b24699e64e5213))
+
 ## [0.0.5](https://github.com/alexzouiten/go-ci-test/compare/v0.0.4...v0.0.5) (2026-09-15)
 
 
