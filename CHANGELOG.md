@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.8](https://github.com/alexzouiten/go-ci-test/compare/v0.0.7...v0.0.8) (2026-09-15)
+
+
+### Bug Fixes
+
+* fix docker pushing to ghcr + push image on push on main ([8ed24b6](https://github.com/alexzouiten/go-ci-test/commit/8ed24b6010547d56ccee3a1960177e0b969f5ad2))
+
 ## [0.0.7](https://github.com/alexzouiten/go-ci-test/compare/v0.0.6...v0.0.7) (2026-09-15)
 
 
