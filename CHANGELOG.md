@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/alexzouiten/go-ci-test/compare/v0.0.4...v0.0.5) (2026-09-15)
+
+
+### Bug Fixes
+
+* use docker/metadata-action ([17bbbf4](https://github.com/alexzouiten/go-ci-test/commit/17bbbf4a6ddb32c4178f4ab2465a8f864d4cda78))
+
 ## [0.0.4](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.3...v0.0.4) (2026-09-15)
 
 
