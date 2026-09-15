@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.9](https://github.com/alexzouiten/go-ci-test/compare/v0.0.8...v0.0.9) (2026-09-15)
+
+
+### Bug Fixes
+
+* re-add packages: write permission to docker workflow ([770b3b2](https://github.com/alexzouiten/go-ci-test/commit/770b3b24eea47e55bb746ec3460c3b54ce1103a0))
+* tag latest push on main image with edge ([b8baa18](https://github.com/alexzouiten/go-ci-test/commit/b8baa18284be7239a24f9072e80d34ba0efb1032))
+
 ## [0.0.8](https://github.com/alexzouiten/go-ci-test/compare/v0.0.7...v0.0.8) (2026-09-15)
 
 
