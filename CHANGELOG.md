@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7](https://github.com/alexzouiten/go-ci-test/compare/v0.0.6...v0.0.7) (2026-09-15)
+
+
+### Bug Fixes
+
+* authenticate with GITHUB_TOKEN for pushing image ([6efd86a](https://github.com/alexzouiten/go-ci-test/commit/6efd86a37cdb4c452bddbcf99a9c75c94e97048e))
+* checkout release tag before building docker image ([ca61d2d](https://github.com/alexzouiten/go-ci-test/commit/ca61d2df843ddba649e6270310482b8d9cffa796))
+
 ## [0.0.6](https://github.com/alexzouiten/go-ci-test/compare/v0.0.5...v0.0.6) (2026-09-15)
 
 
