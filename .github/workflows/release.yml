@@ -51,10 +51,12 @@ jobs:
     needs: release
     runs-on: ubuntu-latest
     if: needs.release.outputs.release_created == 'true'
+    env:
+      REGISTRY: ghcr.io
     steps:
       - uses: docker/login-action@v4
         with:
-          registry: ghcr.io
+          registry: ${{ env.REGISTRY }}
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CICD_TOKEN }}
 
@@ -69,7 +71,7 @@ jobs:
           push: true
           target: runtime
           tags: |
-            ${{ github.repository }}:${{ env.MAJOR }}.${{ env.MINOR }}.${{ env.PATCH }}
-            ${{ github.repository }}:${{ env.MAJOR }}.${{ env.MINOR }}
-            ${{ github.repository }}:${{ env.MAJOR }}
-            ${{ github.repository }}:latest
+            ${{ env.REGISTRY }}/${{ github.repository }}:${{ env.MAJOR }}.${{ env.MINOR }}.${{ env.PATCH }}
+            ${{ env.REGISTRY }}/${{ github.repository }}:${{ env.MAJOR }}.${{ env.MINOR }}
+            ${{ env.REGISTRY }}/${{ github.repository }}:${{ env.MAJOR }}
+            ${{ env.REGISTRY }}/${{ github.repository }}:latest
