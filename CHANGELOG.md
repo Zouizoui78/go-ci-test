@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.2...v0.0.3) (2026-09-15)
+
+
+### Bug Fixes
+
+* fix build make target ([c5e5bf4](https://github.com/Zouizoui78/go-ci-test/commit/c5e5bf4482b0d582db8efe75654963e7d6735b09))
+
 ## [0.0.2](https://github.com/Zouizoui78/go-ci-test/compare/v0.0.1...v0.0.2) (2026-09-15)
 
 
